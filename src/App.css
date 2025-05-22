@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DynaPuff:wght@400..700&family=Pacifico&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background: linear-gradient(135deg, #f3e7e9, #e3eeff);
+}
+
+h1 {
+  font-family: 'Audiowide', cursive;
+  font-size: 3em;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  border: #333 solid 2px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+p {
+  font-family: 'DynaPuff', cursive;
+  font-size: 2em;
+  color: #00d9fa;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+  background-color: #00d9fa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #00a3c4;
+}
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#correct {
+  background-color: green;
+}
+
+#present {
+  background-color: gold;
+}
+
+#absent {
+  background-color: lightgray;
+}
